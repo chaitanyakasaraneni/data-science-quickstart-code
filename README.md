@@ -1,6 +1,6 @@
 # The Data Science Quickstart Guide — Companion Code Repository
 
-*By [Chaitanya Krishna Kasaraneni](https://ckasaraneni.com/), Srikar Kashyap Pulipaka, Sarmista Thalapaneni*
+*By [Chaitanya Krishna Kasaraneni](https://ckasaraneni.com/), [Srikar Kashyap Pulipaka](https://srikarkashyap.com/), Sarmista Thalapaneni*
 
 ---
 
