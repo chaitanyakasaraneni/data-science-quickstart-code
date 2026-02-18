@@ -222,8 +222,8 @@ def visualize_segments(df, rfm_scaled, labels):
 
     plt.suptitle("Customer Segmentation Analysis", fontsize=14, fontweight="bold")
     plt.tight_layout()
-    plt.savefig("customer_segments.png", dpi=150, bbox_inches="tight")
-    print("\nFigure saved: customer_segments.png")
+    plt.savefig("sample-outputs/chapter-14/customer_segments.png", dpi=150, bbox_inches="tight")
+    print("\nFigure saved: sample-outputs/chapter-14/customer_segments.png")
 
 
 if __name__ == "__main__":

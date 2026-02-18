@@ -15,6 +15,8 @@ import numpy as np
 
 def create_sample_data():
     """Generate a synthetic sales dataset with common data quality issues."""
+    print("=" * 60)
+    print("CREATING SAMPLE DATA WITH QUALITY ISSUES")
     np.random.seed(42)
     n = 200
 
@@ -44,6 +46,13 @@ def create_sample_data():
     # Introduce duplicates
     duplicates = df.sample(10, random_state=42)
     df = pd.concat([df, duplicates], ignore_index=True)
+
+    print("=" * 60)
+    print("Sample data created with the following issues:")
+    print(f"  - Missing values in 'revenue': {df['revenue'].isnull().sum()}")
+    print(f"  - Missing values in 'quantity': {df['quantity'].isnull().sum()}")
+    print(f"  - Duplicate rows: {df.duplicated().sum()}")
+    print("=" * 60)
 
     return df
 

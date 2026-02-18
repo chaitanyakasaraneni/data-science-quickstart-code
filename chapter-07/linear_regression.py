@@ -14,7 +14,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression, LogisticRegression
 from sklearn.metrics import (
-    mean_squared_error, r2_score,
+    root_mean_squared_error, r2_score,
     accuracy_score, classification_report, confusion_matrix
 )
 from sklearn.preprocessing import StandardScaler
@@ -71,7 +71,7 @@ def linear_regression_demo():
     # Evaluate
     y_pred = model.predict(X_test)
     r2 = r2_score(y_test, y_pred)
-    rmse = mean_squared_error(y_test, y_pred, squared=False)
+    rmse = root_mean_squared_error(y_test, y_pred, sample_weight=None)
     mae = np.mean(np.abs(y_test - y_pred))
 
     print(f"\n--- Model Performance ---")

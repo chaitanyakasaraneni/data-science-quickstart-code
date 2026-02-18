@@ -109,9 +109,9 @@ def perform_eda(df):
     fig.colorbar(im, ax=axes[1, 1], fraction=0.046, pad=0.04)
 
     plt.tight_layout()
-    plt.savefig("eda_output.png", dpi=150, bbox_inches="tight")
+    plt.savefig("sample-outputs/chapter-03/eda_output.png", dpi=150, bbox_inches="tight")
     plt.show()
-    print("\nFigure saved as 'eda_output.png'")
+    print("\nFigure saved as 'sample-outputs/chapter-03/eda_output.png'")
 
     # --- Key Findings ---
     print("\n" + "=" * 60)

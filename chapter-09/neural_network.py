@@ -143,8 +143,8 @@ def train_and_evaluate():
 
     plt.suptitle("Neural Network Training History", fontsize=14, fontweight="bold")
     plt.tight_layout()
-    plt.savefig("nn_training_history.png", dpi=150, bbox_inches="tight")
-    print("Figure saved: nn_training_history.png")
+    plt.savefig("sample-outputs/chapter-09/nn_training_history.png", dpi=150, bbox_inches="tight")
+    print("Figure saved: sample-outputs/chapter-09/nn_training_history.png")
 
 
 if __name__ == "__main__":
