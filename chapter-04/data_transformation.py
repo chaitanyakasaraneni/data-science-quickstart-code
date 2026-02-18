@@ -147,5 +147,5 @@ if __name__ == "__main__":
     summarize_transformations(raw_df, transformed_df)
 
     # Save transformed data
-    transformed_df.to_csv("transformed_data.csv", index=False)
-    print("\nTransformed data saved to 'transformed_data.csv'")
+    transformed_df.to_csv("sample-outputs/chapter-04/transformed_data.csv", index=False)
+    print("\nTransformed data saved to 'sample-outputs/chapter-04/transformed_data.csv'")

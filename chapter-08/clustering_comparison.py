@@ -59,8 +59,8 @@ def compare_on_moons():
 
     plt.suptitle("K-Means vs DBSCAN on Non-Linear Data", fontsize=14, fontweight="bold", y=1.02)
     plt.tight_layout()
-    plt.savefig("clustering_moons.png", dpi=150, bbox_inches="tight")
-    print("Figure saved: clustering_moons.png")
+    plt.savefig("sample-outputs/chapter-08/clustering_moons.png", dpi=150, bbox_inches="tight")
+    print("Figure saved: sample-outputs/chapter-08/clustering_moons.png")
 
     # Print analysis
     n_noise = (db_labels == -1).sum()
@@ -114,8 +114,8 @@ def compare_on_blobs():
 
     plt.suptitle("K-Means vs DBSCAN on Spherical Clusters", fontsize=14, fontweight="bold", y=1.02)
     plt.tight_layout()
-    plt.savefig("clustering_blobs.png", dpi=150, bbox_inches="tight")
-    print("Figure saved: clustering_blobs.png")
+    plt.savefig("sample-outputs/chapter-08/clustering_blobs.png", dpi=150, bbox_inches="tight")
+    print("Figure saved: sample-outputs/chapter-08/clustering_blobs.png")
 
     print(f"\n  K-Means clusters: {len(set(km_labels))}")
     print(f"  DBSCAN clusters:  {n_clusters_db}, noise points: {noise_mask.sum()}")
@@ -149,8 +149,8 @@ def elbow_method():
     plt.legend()
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
-    plt.savefig("elbow_method.png", dpi=150)
-    print("\nFigure saved: elbow_method.png")
+    plt.savefig("sample-outputs/chapter-08/elbow_method.png", dpi=150)
+    print("\nFigure saved: sample-outputs/chapter-08/elbow_method.png")
     print("\n  The 'elbow' at K=4 indicates the optimal number of clusters,")
     print("  where adding more clusters yields diminishing returns.")
 

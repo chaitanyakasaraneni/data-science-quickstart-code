@@ -138,8 +138,8 @@ def business_dashboard():
     ax6.grid(True, alpha=0.3)
 
     plt.tight_layout(rect=[0, 0, 1, 0.95])
-    plt.savefig("business_dashboard.png", dpi=150, bbox_inches="tight")
-    print("\nFigure saved: business_dashboard.png")
+    plt.savefig("sample-outputs/chapter-11/business_dashboard.png", dpi=150, bbox_inches="tight")
+    print("\nFigure saved: sample-outputs/chapter-11/business_dashboard.png")
     print("  Contains 6 visualization types: grouped bar, stacked bar,")
     print("  donut chart, dual-axis line, heatmap, and annotated scatter.")
 
@@ -186,8 +186,8 @@ def storytelling_visualization():
     ax.set_xlim(0, 25)
 
     plt.tight_layout()
-    plt.savefig("storytelling_viz.png", dpi=150, bbox_inches="tight")
-    print("Figure saved: storytelling_viz.png")
+    plt.savefig("sample-outputs/chapter-11/storytelling_viz.png", dpi=150, bbox_inches="tight")
+    print("Figure saved: sample-outputs/chapter-11/storytelling_viz.png")
 
 
 if __name__ == "__main__":

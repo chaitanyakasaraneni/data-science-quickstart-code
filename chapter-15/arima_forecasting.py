@@ -63,8 +63,8 @@ def decomposition_demo(ts):
 
     plt.suptitle("Seasonal Decomposition of Monthly Sales", fontsize=14, fontweight="bold")
     plt.tight_layout()
-    plt.savefig("decomposition.png", dpi=150, bbox_inches="tight")
-    print("\nFigure saved: decomposition.png")
+    plt.savefig("sample-outputs/chapter-15/decomposition.png", dpi=150, bbox_inches="tight")
+    print("\nFigure saved: sample-outputs/chapter-15/decomposition.png")
     print(f"\n  Observations: {len(ts)} months")
     print(f"  Date range: {ts.index[0].strftime('%Y-%m')} to {ts.index[-1].strftime('%Y-%m')}")
     print(f"  Mean sales: {ts.mean():.1f}")
@@ -174,8 +174,8 @@ def visualize_forecasts(ts, train, test, arima_forecast_vals, sarima_forecast_va
 
     plt.suptitle("Time Series Forecasting: ARIMA vs SARIMA", fontsize=14, fontweight="bold")
     plt.tight_layout()
-    plt.savefig("forecast_comparison.png", dpi=150, bbox_inches="tight")
-    print("\nFigure saved: forecast_comparison.png")
+    plt.savefig("sample-outputs/chapter-15/forecast_comparison.png", dpi=150, bbox_inches="tight")
+    print("\nFigure saved: sample-outputs/chapter-15/forecast_comparison.png")
 
 
 if __name__ == "__main__":
