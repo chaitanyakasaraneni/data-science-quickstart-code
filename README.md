@@ -18,7 +18,7 @@ This repository contains all companion code examples for *The Data Science Quick
 | 5 | Statistical Foundations | `hypothesis_testing.py` | scipy, numpy |
 | 7 | Supervised Learning Techniques | `linear_regression.py` | scikit-learn, pandas |
 | 8 | Unsupervised Learning Techniques | `clustering_comparison.py` | scikit-learn, matplotlib |
-| 9 | Deep Learning & Neural Networks | `neural_network.py` | tensorflow, keras |
+| 9 | Deep Learning & Neural Networks | `neural_network.py` | numpy, scikit-learn, matplotlib |
 | 10 | Natural Language Processing | `text_processing.py` | nltk |
 | 11 | Data Visualization Techniques | `visualization_examples.py` | matplotlib, numpy |
 | 14 | Data Science for Business Analytics | `customer_segmentation.py` | scikit-learn, pandas |
@@ -72,8 +72,9 @@ All dependencies are listed in `requirements.txt`. The major libraries used are:
 - **scikit-learn** — machine learning
 - **scipy** — statistical testing
 - **statsmodels** — time series analysis
-- **tensorflow** — deep learning
 - **nltk** — natural language processing
+
+The Chapter 9 neural network is implemented with NumPy alone (no deep-learning framework) so the forward pass, backpropagation, and parameter updates described in §9.2 are visible in the source.
 
 ## License
 
